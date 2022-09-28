@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>Nieuwe te laat melding student</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    </head>
+    <body>    
+        <form action="index.php" class="register" method='POST'>
+            <fieldset class="row1">
+                    <div class="container">
+                    <div class="title">Nieuwe te laat melding student</div>
+
+                    </div>
+                <p>
+                    <label class="tekst1">Naam Student:</label>
+                    <input type="text" name="form_naam" placeholder="naam student..." required/>
+
+                </p>
+                <p>
+                        <label class="tekst1">Klas:</label>
+                        <select class="date" name="form_klas"  required>
+                            <option value="1">9A
+                            </option>
+                            <option value="2">9B
+                            </option>
+                            <option value="3">9C
+                            </option>
+                            <option value="4">9D
+                            </option>
+                        </select>
+                </p>
+
+
+                <p>
+                    <label class="tekst1">Aantal minuten te laat:</label>
+                    <select class="date" name="form_minutentelaat"  required>
+                        <option value="1">5
+                        </option>
+                        <option value="2">10
+                        </option>
+                        <option value="3">15
+                        </option>
+                        <option value="4">20
+                        </option>
+                        <option value="1">25
+                        </option>
+                        <option value="2">30
+                        </option>
+                        <option value="3">35
+                        </option>
+                        <option value="4">40
+                        </option>
+                        <option value="1">45
+                        </option>
+                        <option value="2">50
+                        </option>
+                        <option value="3">55
+                        </option>
+                        <option value="4">60
+                        </option>
+                    </select>
+            </p>
+
+
+
+                </p>
+
+
+                <p>
+                    <label class="telaatbox">Reden te laat:</label>
+					<input type="text" name="form_redentelaat"  />
+                </p>
+
+
+            <div><button class="button-1" role="button">Opslaan </button></div>
+        </form>
+    </body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap');
+
+
+.row1{
+
+   border-color: rgb(255, 255, 255);
+   border-width: 5px ;
+   border-style: solid 2px;
+   display: block;
+   align-items: center;
+   max-width: 700px;
+   margin: auto;
+   background: white;
+   justify-content: center;
+   box-sizing: border-box;
+   border-radius: 10px;
+
+
+}
+
+.container .title{
+font-size: 25px;
+font-weight: 500;
+position: relative;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.container .title::before{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    background: #9b59b6; 
+}
+
+
+
+
+.telaatbox{
+    color: black;
+    font-family: 'Poppins', serif;
+    height: 150px;
+    width: 600px;
+}
+
+
+
+body { 
+    background: linear-gradient(-45deg, #1A2EC6, #3044CA, #4C6AD6, #F7250E, #FA4F40, #FA5F52);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+.button-1 {
+  background-color: #2f32c2;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Poppins', serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 200px;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #F082AC;
+}
+
+
+
+</style>
+
+</html>
+
