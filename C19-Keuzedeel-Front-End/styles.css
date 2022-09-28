@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    color: #5a5150;
+    line-height: 1.8;
+}
+
+h2{
+    font-family: 'Karla';
+    color: #4e4b4b;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+h3{
+    font-family: 'Karla';
+    font-size: 16px; 
+    color: #4e4b4b;
+    line-height: 1.4;;
+}
+
+h4{
+    font-family: 'Karla';
+    font-size: 16px; 
+    color: #919291;
+    line-height: 1.4;;
+}
+
+a{
+    font-family: 'Karla';
+    font-size: 14px;
+    color: #ca404f;
+    line-height: 1.4;
+}
+
+.button{
+    font-size: 24px;
+    color: white;
+    line-height: 42px;
+    background-color: #ca404f;
+}
+
