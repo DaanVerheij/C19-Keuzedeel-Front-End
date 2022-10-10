@@ -5,11 +5,11 @@ function netEuro($getal) {
   return $uitkomst;
 }
 
-echo netEuro(10);
+echo netEuro(10.00);
 echo "<br>";
-echo NetEuro(10.50);
+echo netEuro(10.50);
 echo "<br>";
-echo NetEuro(10.67);
+echo netEuro(10.67);
 echo "<br>";
 
 ?>
